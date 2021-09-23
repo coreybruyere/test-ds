@@ -35,7 +35,7 @@ const StyledButton = styled('button', {
     color: '$gray',
     pointerEvents: 'none',
   },
-
+  // Button variants
   variants: {
     variant: {
       primary: {
