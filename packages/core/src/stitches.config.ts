@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { createStitches, globalCss } from '@stitches/react';
 // @ts-ignore
 import { normalize } from 'normalize-stitches';
