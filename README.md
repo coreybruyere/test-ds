@@ -1,6 +1,6 @@
 # Installation
 - `npm i`
-- `npm bootstrap`
+- `npm run bootstrap`
 
 
 Running this command to try to debug error
