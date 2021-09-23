@@ -50,7 +50,7 @@ const StyledButton = styled('button', {
     },
   },
 
-  // Default variant!!!
+  // Default variant!!!!
   defaultVariants: {
     variant: 'primary',
   },
