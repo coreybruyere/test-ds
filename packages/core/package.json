@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@coreybruyere/sundae-ds",
+  "name": "sundae-ds",
   "author": "Corey Bruyere",
   "module": "dist/sundae-ds.esm.js",
   "size-limit": [
