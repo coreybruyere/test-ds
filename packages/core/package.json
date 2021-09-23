@@ -88,5 +88,5 @@
   "publishConfig": {
     "@sundae:registry": "https://gitlab.com/api/v4/projects/29855641/packages/npm/"
   },
-  "gitHead": "727564006ecc7658ad6df7c199b36924b56d5619"
+  "gitHead": "4839513256596e2d7aa0190d0519323e3e6ee9ac"
 }
