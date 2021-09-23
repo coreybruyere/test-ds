@@ -1,5 +1,4 @@
 {
-  "name": "@coreybruyere/sundae-ds-test",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
@@ -9,17 +8,6 @@
     "start": "lerna run storybook",
     "bootstrap": "lerna bootstrap"
   },
-  "version": "0.1.0",
-  "description": "Design System",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/sundae-inc/frontend/sundae-design-system.git"
-  },
-  "author": "Corey Bruyere",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/sundae-inc/frontend/sundae-design-system/issues"
-  },
-  "homepage": "https://gitlab.com/sundae-inc/frontend/sundae-design-system#readme"
+  "author": "Corey Bruyere"
 }
+

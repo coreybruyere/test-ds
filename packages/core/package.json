@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "sundae-ds",
+  "name": "@coreybruyere/sundae-ds",
   "author": "Corey Bruyere",
   "module": "dist/sundae-ds.esm.js",
   "size-limit": [
@@ -71,5 +71,18 @@
   "dependencies": {
     "@stitches/react": "^1.2.0",
     "normalize-stitches": "^0.1.2"
-  }
+  },
+  "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sundae-inc/frontend/sundae-design-system.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/sundae-inc/frontend/sundae-design-system/issues"
+  },
+  "homepage": "https://gitlab.com/sundae-inc/frontend/sundae-design-system#readme"
 }
