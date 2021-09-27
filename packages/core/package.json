@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "sundae-design-system",
+  "name": "@sundae/design-system",
   "author": "Corey Bruyere",
   "module": "dist/sundae-ds.esm.js",
   "size-limit": [
@@ -88,5 +88,5 @@
   "publishConfig": {
     "@frontend:registry": "https://gitlab.com/api/v4/projects/27770751/packages/npm/"
   },
-  "gitHead": "185afa145589f427c83458d787e9fad1628b0ea0"
+  "gitHead": "5023183438a8030a2973d2bc1504d4e94dfe747f"
 }
