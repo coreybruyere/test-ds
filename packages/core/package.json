@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@sundae/design-system",
+  "name": "sundae-design-system",
   "author": "Corey Bruyere",
   "module": "dist/sundae-ds.esm.js",
   "size-limit": [
