@@ -5,13 +5,13 @@ cache:
     - node_modules/
     - .cache/
 pages:
-  stage: deploy
+  stage: buildd
   script:
-    - npm i
+    - npm install
     - npm run bootstrap
     - lerna run build-storybook
   artifacts:
     paths:
-      - public
+      - storybook-static
   only:
     - master
