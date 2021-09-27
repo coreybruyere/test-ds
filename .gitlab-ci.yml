@@ -7,7 +7,7 @@ cache:
 pages:
   stage: deploy
   script:
-    - npm run build-storybook
+    - lerna run build-storybook
   artifacts:
     paths:
       - public
