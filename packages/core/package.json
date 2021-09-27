@@ -88,5 +88,5 @@
   "publishConfig": {
     "@frontend:registry": "https://gitlab.com/api/v4/projects/27770751/packages/npm/"
   },
-  "gitHead": "8a8265f13648ad969cc47beb76e19ccafca2d800"
+  "gitHead": "9f0c1c2e1428f8db7ed4f3719f5d647f4eaee17e"
 }
