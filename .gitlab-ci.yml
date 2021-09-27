@@ -1,0 +1,15 @@
+image: node:12.10.0
+
+cache:
+  paths:
+    - node_modules/
+    - .cache/
+pages:
+  stage: deploy
+  script:
+    - npm run build-storybook
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
