@@ -86,7 +86,7 @@
   },
   "homepage": "https://gitlab.com/sundae-inc/frontend/sundae-design-system#readme",
   "publishConfig": {
-    "@frontend:registry": "https://gitlab.com/api/v4/projects/29855641/packages/npm/"
+    "@frontend:registry": "https://gitlab.com/api/v4/projects/27770751/packages/npm/"
   },
-  "gitHead": "f5deedb0326805227c768a2db3aa5f9d7589190f"
+  "gitHead": "9464523e75dcde17f883bbad7415ba20758e9c17"
 }
