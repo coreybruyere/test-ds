@@ -1,4 +1,4 @@
-image: node:12.10.0
+image: node:14.16
 
 variables:
   GITLAB_AUTH_TOKEN: $GITLAB_AUTH_TOKEN
@@ -12,9 +12,9 @@ pages:
     - npm install
     - npm run bootstrap
     - npm run build-storybooks
+    - mv packages/core/storybook-static/ public/
   artifacts:
     paths:
-      - packages/core/storybook-static
-
+      - public
   only:
     - master
