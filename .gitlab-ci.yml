@@ -15,6 +15,5 @@ pages:
   artifacts:
     paths:
       - packages/core/storybook-static
-
   only:
     - master
