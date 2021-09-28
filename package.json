@@ -6,7 +6,8 @@
   "scripts": {
     "publish": "lerna run build && lerna publish && lerna run build-storybook",
     "start": "lerna run storybook",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "build-storybooks": "lerna run build-storybook"
   },
   "author": "Corey Bruyere"
 }
