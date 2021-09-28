@@ -1,6 +1,9 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "conventionalCommits": true
+    }
+  },
   "version": "0.0.1-y.3"
 }
