@@ -7,7 +7,7 @@ cache:
   paths:
     - node_modules/
 pages:
-  stage: build
+  stage: deploy
   script:
     - npm install
     - npm run bootstrap
