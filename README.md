@@ -17,9 +17,30 @@ The Sundae Design Systems offers a collection of components available through di
 - `npm i` in root
 - `npm run bootstrap` to install each packages dependencies in the monorepo
 
-## Publishing
+## Contributing
 
 (Contributing docs coming soon)
+
+### Commits
+
+Follow [Conventional Commit spec](https://www.conventionalcommits.org/en/v1.0.0/#summary) when making commits to the project. This convention dovetails with [SemVer](https://semver.org/), by describing the features, fixes, and breaking changes made in commit messages. These conventions will automatically generate a CHANGELOG for the project and each package while effectively communicating the nature of the changes to teammates.
+
+Commit message should be structured as follows:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+- A commit type of `fix` patches a bug in the codebase and correlates with `PATCH` in Semantic Versioning.
+- A commit type of `feat` introduces a new feature to the codebase and correlates with `MINOR` in Semantic Versioning.
+- A commit type of `BREAKING CHANGE` introduces a new feature to the codebase and correlates with `MAJOR` in Semantic Versioning.
+- Other commit types are allowed, recommended types are `build`, `chore`, `ci`, `docs`, `style`, `refactor`, `perf`, and `test`
+
+## Publishing
 
 - Commit any changes
 - Run `npm run publish` from root
