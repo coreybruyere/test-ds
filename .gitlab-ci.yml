@@ -11,6 +11,6 @@ pages:
   script:
     - npm install
     - npm run bootstrap
-    - npm run build-storybook
+    - npm run build-storybooks
   only:
     - master
