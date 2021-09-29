@@ -1,7 +1,7 @@
-# Installation
-- `npm i`
-- `npm run bootstrap`
 
+## Installation
 
-Running this command to try to debug error
-- `lerna run build`
+- Clone project
+- `npm i` in root
+- `npm run bootstrap` to install each packages dependencies in the monorepo
+- `npm run start` to start storybook

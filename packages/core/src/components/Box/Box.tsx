@@ -1,13 +1,13 @@
-import React, { ReactNode } from 'react';
+import React, { FC, ReactNode, ComponentProps } from 'react';
 
-import { styled, VariantProps } from '../../stitches.config';
+import { styled } from '../../stitches.config';
 
 export type BoxProps = {
   children?: ReactNode;
-} & VariantProps<typeof StyledDiv>;
+} & ComponentProps<typeof StyledDiv>;
 
 const StyledDiv = styled('div', {});
 
-export const Box = (props: BoxProps) => {
+export const Box: FC<BoxProps> = (props) => {
   return <StyledDiv {...props} />;
 };

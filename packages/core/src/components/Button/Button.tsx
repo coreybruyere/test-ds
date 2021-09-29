@@ -28,6 +28,7 @@ const StyledButton = styled('button', {
   border: '$borderWidths$2 solid $red',
   borderRadius: '$1',
 
+  // Disabled
   '&:disabled': {
     backgroundColor: '$gray',
     boxShadow: 'inset 0 0 0 1px $gray',
@@ -35,6 +36,7 @@ const StyledButton = styled('button', {
     pointerEvents: 'none',
   },
 
+  // Button variants
   variants: {
     variant: {
       primary: {
@@ -48,6 +50,7 @@ const StyledButton = styled('button', {
     },
   },
 
+  // Default variant!!!!!
   defaultVariants: {
     variant: 'primary',
   },
